@@ -230,7 +230,6 @@ body {
     max-width: 400px;
     text-align: center;
     
-    /* PREPARACIÓN PARA LA ANIMACIÓN */
     transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
     cursor: default;
 }
