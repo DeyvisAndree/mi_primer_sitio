@@ -129,3 +129,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.querySelectorAll('.info-card').forEach((el) => observer.observe(el));
 });
+
+
+window.addEventListener('load', () => {
+    const loader = document.getElementById('loader');
+    
+    // Le damos un pequeño retraso de 500ms para que el usuario 
+    // pueda apreciar la animación del logo, igual que en Friv.
+    setTimeout(() => {
+        loader.classList.add('hidden');
+    }, 2500); // 2.5 segundos coincide con la animación de la barra
+});
